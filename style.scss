@@ -1,0 +1,140 @@
+@import "navbar";
+@import "herosection";
+@import "about";
+@import "keypoints";
+@import "timeline";
+@import "dashboard";
+@import "team";
+
+
+body {
+    margin: 0px;
+    background-color: #080b2a;
+    overflow-x:hidden;
+  }
+
+  
+  @media (max-width: 1280px) {
+    .about {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .modelviewerdiv {
+      width: 50vw;
+    }
+  
+    .model2 {
+      width: 800px;
+      height: 800px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .modelviewerdiv {
+      order: 2;
+      width: 100vw;
+    }
+    .model2 {
+      order: 2;
+      height: 100vw;
+      width: 100vw;
+    }
+    .dashboardwrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+   .team .teamwrapper{
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+   }
+    
+  }
+
+  @media (max-width: 415px){
+    .dashboard{
+      height: 120vh;
+  }
+  .dashboardimg img{
+    width: 400px;
+  }
+  .timeline{
+    margin-top: 250px;
+    height: 200vh;
+  }
+  .team{
+    height: 400vh;
+  }
+  .team .teamwrapper{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  }
+  
+  @media (max-width: 375px) {
+    .about{
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .hero{
+      height: 100vh;
+    }
+    .modelviewerdiv {
+      order: 2;
+      
+    }
+    .model2 {
+      height: 100vw;
+      width: 100vw;
+    }
+    .timeline{
+      margin-top: 250px;
+      height: 200vh;
+    }
+    .dashboard{
+      height: 100vh;
+      
+    }
+
+    .dashboardwrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+    .dashboardimg img{
+      width: 300px;
+    }
+    .team{
+      height: 300vh;
+    }
+    .team .teamwrapper{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .keypoints{
+      height: 100vh;
+    }
+    .container{
+      width: 100vw;
+    }
+  }
+  
+  
+  
+  
+  

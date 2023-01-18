@@ -1,0 +1,48 @@
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;  
+    
+}
+
+.modelviewerdiv {
+    width: 50vw;
+}
+.model2 {
+    
+    height: 1024px;
+    width: 1024px;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.sectiontext {
+    z-index: 1;
+   
+}
+.abouttitle {
+    font-family: $primaryFont;
+    font-weight: 600;
+    color: white;
+    font-size: 3em;
+}
+.aboutparagraph {
+    font-family: $primaryFont;
+    color: white;
+    font-size: 1.2em;
+}
+
+.elipse4 {
+    position: absolute;
+    width: 356px;
+    height: 356px;
+    left: 1108px;
+    top: 1300px;
+    background: #2a3e84;
+    filter: blur(175px);
+}

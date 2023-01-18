@@ -1,0 +1,33 @@
+.keypoints {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+  }
+
+  .keypointstitle{
+    font-family: $secondaryFont;
+    color: white;
+    font-size: 1.5em;
+  }
+  .keypointsheader {
+    font-family: $primaryFont;
+    font-weight: 600;
+    color: white;
+    font-size: 3em;
+  }
+  
+  .keypointsdiv {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #15bffd;
+    width: 80vw;
+  }
+
+  .keypointsparagraph {
+    font-family: $secondaryFont;
+    color: white;
+    font-size: 1em;
+  }

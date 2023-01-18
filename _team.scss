@@ -1,0 +1,38 @@
+.team{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    .teamwrapper{
+        align-items: center;
+        height: 50vh;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(250px, 1fr));
+        grid-gap: 50px;
+    }
+}
+
+.teamcard{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    img{
+        
+        border-radius: 30px;
+    }
+}
+
+.teamcard>h2{
+    font-family: $primaryFont;
+    color: white;
+}
+.teamcard>p{
+    font-family: $secondaryFont;
+    color: white;
+}
