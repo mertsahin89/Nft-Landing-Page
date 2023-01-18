@@ -1,0 +1,1 @@
+# Our first version of webpage for upcoming 3d Nft project. This version is shelved for now because we came up with something more interesting. Made with Html, Css, Vanilla.js, Google Model Viewer and Sass.
